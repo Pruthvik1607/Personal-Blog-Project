@@ -270,7 +270,7 @@ comment_show{
 /*right sdie div style start*/
 .about_me_div {
     width: auto;
-    height: 40rem;
+    height: 30rem;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
@@ -437,3 +437,19 @@ footer p {
     }
 
 }
+
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .example {
+    background-color: #eee;
+    width: 500px;
+    height: 2100px;
+    /* border: 1px dotted black; */
+    overflow-y: scroll; /* Add the ability to scroll */
+  }
